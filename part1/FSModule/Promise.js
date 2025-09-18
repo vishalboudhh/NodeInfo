@@ -72,15 +72,25 @@
 
 // })
 
-async function Hello() {
-    console.log("Process:2");
-    await console.log("Process:3");
-    await console.log("Process:4");
-    console.log("Process:5");
-    console.log("Process:6");
-}
+// async function Hello() {
+//     console.log("Process:2");
+//     await console.log("Process:3");
+//     await console.log("Process:4");
+//     console.log("Process:5");
+//     console.log("Process:6");
+// }
 
-console.log("process:1");
-Hello();
-console.log("process:7");
+// console.log("process:1");
+// Hello();
+// console.log("process:7");
 
+
+// try {
+//     Hello();
+//     throw(new Error("Error is there "))
+// } catch (error) {
+//     console.log(error.message);
+    
+// } finally{
+
+// }
